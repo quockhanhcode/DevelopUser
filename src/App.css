@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+/*  */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.full{
+  width: 600px;
+}
+ul{
+  text-align: center;
+  display: inline-block;
+}
+ul >li{
+  float: left;
+  padding: 15px;
+}
+ul >li a{
+  color: gray;
+}
+ul >li a:hover{
+  text-decoration: none;
+}
+.alert img{
+  width:30%;
+}
+.alert{
+  position: relative;
+}
+.alert .nut {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.alert .name{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 15px 0px 5px 0;
+}
+.alert .text-one {
+  margin-bottom: 0px;
+  color: gray;
+}
+.alert .text-two {
+  color: gray;
+}
+.alert .buttoni{
+  position: absolute;
+}
+
+.alert .buttoni {
+  position: absolute;
+  bottom: 0px;
+  margin-left: -240px;
+}
