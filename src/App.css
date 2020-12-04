@@ -93,3 +93,36 @@ ul >li a:hover{
   bottom: 0px;
   margin-left: -240px;
 }
+.button-show{
+  cursor: pointer;
+  color: #61dafb;
+}
+
+.btn-white:hover{
+  background: white;
+}
+
+.nenxanh{
+  display: none;
+    width: 600px;
+    background: #b3d7ff63;
+    padding: 30px;
+    margin-left: 24%;
+}
+.activehide{
+  display: none;
+}
+.card:hover{
+  cursor: pointer;
+  background-color: #007bff0f;
+}
+.trai, .form-check{
+  text-align: left;
+  display: block;
+}
+
+.back-button{
+  background: #17a2b88f;
+    padding: 10px;
+    text-align: left;
+}
